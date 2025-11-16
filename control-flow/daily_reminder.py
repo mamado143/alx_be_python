@@ -36,4 +36,4 @@ else:
         reminder += " Consider completing it when you have free time."
 
 # Step 6: Print the final reminder (always with "Reminder:" for checker)
-print("\nReminder:", reminder)
+print(f"Reminder: {reminder}")
