@@ -1,13 +1,14 @@
-#!include/usr/bin/python3
+#!/usr/bin/python3
 def perform_operation(num1: float, num2: float, operation: str):
     if operation == "add":
         return num1 + num2
-    elif operation == "substract":
+    elif operation == "subtract":
         return num1 - num2
     elif operation == "multiply":
         return num1 * num2
     elif operation == "divide":
         if num2 == 0:
             return "Error: Can not divide by 0"
+        return num1 / num2
     else:
         return "Invalid operation"
