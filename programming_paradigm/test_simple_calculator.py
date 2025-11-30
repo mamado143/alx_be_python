@@ -27,6 +27,9 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.add(7, 0), 7)
 
     # ----- SUBTRACTION TESTS -----
+    def test_subtraction(self):
+        self.assertEqual(self.calc.subtract(10, 3), 7)
+
     def test_subtract_positive_numbers(self):
         self.assertEqual(self.calc.subtract(10, 3), 7)
 
