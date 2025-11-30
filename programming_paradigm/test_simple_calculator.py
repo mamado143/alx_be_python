@@ -10,6 +10,9 @@ class TestSimpleCalculator(unittest.TestCase):
         self.calc = SimpleCalculator()
 
     # ----- ADDITION TESTS -----
+    def test_addition(self):
+        self.assertEqual(self.calc.add(2, 3), 5)
+
     def test_add_positive_numbers(self):
         self.assertEqual(self.calc.add(2, 3), 5)
 
